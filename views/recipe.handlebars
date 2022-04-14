@@ -1,0 +1,33 @@
+<div class="paper">
+  <div class="paper-content">
+    <div id="recipeCard" class="mb-3" style="max-width: 1000px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img
+            src="{{imageURL}}"
+            class="img-fluid rounded-start"
+            alt="Photo Of Food"
+          />
+        </div>
+        <div class="col-md-8">
+          <div class="">
+            <h5 class="recipeTitle">Recipe: {{name}}</h5>
+            <p class="">Serves: {{serves}}</p>
+            <p class="">Estimated Prep Time: {{prep_time}}</p>
+            <p class="">Estimated Cook Time: {{cook_time}}</p>
+            <p class="">Estimated Rest Time: {{rest_time}}</p>
+            <p class="">List Of Ingredients: {{ingredients}}</p>
+            <p class="">Directions: {{directions}}</p>
+            <p class="">Created By: {{createdby}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<canvas class="bg-white" id="myChart" width="4" height="4"></canvas>
+
+<script
+  src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"
+></script>
+

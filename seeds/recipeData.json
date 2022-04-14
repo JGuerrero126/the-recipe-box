@@ -1,0 +1,53 @@
+[
+{
+    "name": "Pesto",
+    "serves": 6,
+    "prep_time": "20 Minutes",
+    "ingredients": "1 Bunch of Basil, 1 Cup of Parmesan, handfull of Pine Nuts, 1 TSP Red Pepper Flakes, Juice of 1 Lemmon, Salt and Pepper to taste",
+    "directions": "Add all Ingredients to a food processor and blend untill smooth",
+    "imageURL": "https://res.cloudinary.com/dbwdsy3t8/image/upload/v1649452796/pesto_uxbaxk.webp",
+    "createdby": "Lexi"
+  },
+  {
+    "name": "Whole Roasted Chicken",
+    "serves": 4,
+    "prep_time": "10 Minutes",
+    "cook_time": "1Hr -1Hr30Min",
+    "rest_time": "15 Min",
+    "ingredients": "1 Raw Whole Chicken, 1 Stick of Butter, 1 pack of fresh poultry blend herbs finely chopped, 1 lemon with zest, 3 cloves of garlic, salt and pepper.",
+    "directions": "Preheat Oven to 375. Rinse and dry chicken and place on baking sheet, melt butter and combine lemon juice, zest, herbs, garlic, salt and pepper in a bowl. Rub butter/herb blend all over chicken including under the skin. Cook for 1-1.5 hrs untill internal temperature reaches 165.",
+    "imageURL":"https://res.cloudinary.com/dbwdsy3t8/image/upload/v1649604229/rotisserie-chicken_kitjzb.jpg",
+    "createdby": "Lexi"
+  },
+  {
+    "name": "Oven Baked Salmon",
+    "serves": 4,
+    "prep_time": "30 Minutes",
+    "cook_time": "30 Minutes",
+    "ingredients": "4 portions of salmon, garlic powder, olive oil, lemon pepper, 2 heads of cauliflower, garlic butter, heavy cream, 2 bunches of asparagus, chives",
+    "directions": "Preheat oven to 450. Coat salmon in olive oil, season with garlic powder and lemon pepper, and place on baking sheet in oven for 15-18 minutes. Meanwhile, bring a large pot of water to boil and place cauliflower in pot to boil for 8-10 minutes. Once cauliflower is tender remove and mash adding garlic butter and heavy cream to taste. Place asparagus in boiling water untill tender remove and coat in garlic butter. Scoop cauliflower onto plate place salmon on top and serve asparagus allongside.",
+    "imageURL": "https://res.cloudinary.com/dbwdsy3t8/image/upload/v1649689197/salmon_un66q7.jpg",
+    "createdby": "Lexi"
+  },
+  {
+    "name": "No Bake Cookies ",
+    "serves": "12",
+    "prep_time": "10 Min",
+    "rest_time": "40 Min",
+    "ingredients": "2 Cups Sugar, 1/2 Cup Milk, 1 Stick Unsalted Butter, 1/4 Cup Unsweetened Cocoa Powder, 3 Cups Oldfashioned Rolled Oats, 1 Cup Smooth Peanut Butter, 1 Tbsp Vanilla Extract, Large Pinch of Kosher Salt",
+    "directions": "Bring the sugar, milk, butter and cocoa to a boil in a medium saucepan over medium heat, stirring occasionally, then let boil for 1 minute. Remove from the heat. Add the oats, peanut butter, vanilla and salt, and stir to combine. Drop teaspoonfuls of the mixture onto wax paper lined baking sheet, and let sit at room temperature until cooled and hardened, about 30 minutes. Refrigerate in an airtight container for up to 3 days.",
+    "imageURL": "https://res.cloudinary.com/dbwdsy3t8/image/upload/v1649689845/no-bake-cookies_xc3lay.jpg",
+    "createdby": "Lexi"
+  },
+  {
+      "name": "Tomato Soup",
+      "serves": "8",
+      "prep_time": "15 Min",
+      "cook_time": "40 Min",
+      "ingredients": "1 large yellow onion chopped, 1 stick of butter, 2 14.5oz cans of diced tomatoes, 1 46oz jar of tomato juice, 3 boulion cubes, 1 cup heavy cream, 1/4 cup basil, 1/4 cup parsley, salt and pepper to taste.",
+      "directions": "Melt butter in large pot, add onion and cook untill translucent, add canned tomatoes and cook for 10 minutes, add tomato juice, boulion cubes, heavy cream and herbs, heat through and serve.",
+      "imageURL": "https://res.cloudinary.com/dbwdsy3t8/image/upload/v1649697640/creamy-tomato-soup_wkgedk.jpg",
+      "createdby": "Lexi"
+  }
+
+]

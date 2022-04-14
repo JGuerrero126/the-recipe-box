@@ -1,0 +1,85 @@
+{{#if recipes}}
+  <h2>Saved Recipes!</h2>
+  {{#each recipes as |recipe|}}
+    <a data-id="{{id}}"class="btn delete gettingridof"><span></span><text>Delete</text></a>
+    <div class="paper">
+    <div class="paper-content">
+    <div id ="recipeCard"class="mb-3" style="max-width: 1000px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img
+            src="{{imageURL}}"
+            class="img-fluid rounded-start"
+            alt="Photo Of Food"
+          />
+        </div>
+        <div class="col-md-8">
+          <div class="">
+            <h5 class="recipeTitle">Recipe: {{name}}</h5>
+            <p class="">Serves: {{serves}}</p>
+            <p class="">Estimated Prep Time: {{prep_time}}</p>
+            <p class="">Estimated Cook Time: {{cook_time}}</p>
+            <p class="">Estimated Rest Time: {{rest_time}}</p>
+            <p class="">List Of Ingredients: {{ingredients}}</p>
+            <p class="">Directions: {{directions}}</p>
+            <p class="">Created By: {{createdby}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+
+  {{/each}}
+{{else}}
+  <h2>You Have No Recipes Saved, Why Not Add Some?</h2>
+{{/if}}
+
+<div id="addRecipeBox">
+<h3>Create A New Recipe!</h3>
+
+<form class="new-recipe-form">
+  <div class="mb-3">
+    <label for="recipe-name" class="form-label">Name of Recipe:</label>
+    <input type="text" class="form-control" id="recipe-name" />
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Serves How Many?</label>
+    <input type="text" class="form-control" id="recipe-serves" />
+  </div>
+  <div class="mb-3">
+    <label class="form-label" for="recipe-prep_time">Estimated Prep Time:</label>
+    <input type="text" class="form-control" id="recipe-prep_time" />
+  </div>
+  <div class="mb-3">
+    <label class="form-label" for="recipe-cook_time">Estimated Cook Time:</label>
+    <input type="text" class="form-control" id="recipe-cook_time" />
+  </div>
+  <div class="mb-3">
+    <label class="form-label" for="recipe-rest_time">Estimated Rest Time:</label>
+    <input type="text" class="form-control" id="recipe-rest_time" />
+  </div>
+  <div class="mb-3">
+    <label class="form-label" for="recipe-ingredients">Ingredients:</label>
+    <input type="text" class="form-control" id="recipe-ingredients" />
+  </div>
+  <div class="mb-3">
+    <label class="form-label" for="recipe-directions">Directions:</label>
+    <input type="text" class="form-control" id="recipe-directions" />
+  </div>
+  <div class="mb-3">
+    <label class="form-label" for="recipe-createdby">Who Created This Dish?</label>
+    <input type="text" class="form-control" id="recipe-createdby" />
+  </div>
+  <button id="upload_widget" class="cloudinary-button">Upload A Picture</button>
+  <button id="submitRecipe" type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+
+ <script>
+      let btn = document.querySelector('.btn'); btn.onclick = function(){
+      btn.classList.toggle('active') }
+    </script>
+
+
+<script src="/js/profile.js"></script>
